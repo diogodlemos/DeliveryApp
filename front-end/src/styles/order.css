@@ -1,0 +1,50 @@
+.checkout-order > .seller-statusbar {
+  background-color: #eaf1ef;
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+}
+
+.seller-statusbar > .order {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.seller-statusbar > .date {
+  background-color: #f0fbf9;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.seller-statusbar > .seller {
+  font-size: 20px;
+  height: 30px;
+}
+
+.seller-statusbar > .status {
+  background-color: #3bd5b0;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  height: 30px;
+  padding: 0 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.seller-statusbar > button {
+  background-color: #036b52;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  height: 30px;
+  padding: 0 10px;
+}
+
+.seller-statusbar > .prepare {
+  background-color: #2fc18c;
+  margin-left: auto;
+}

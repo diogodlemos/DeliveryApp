@@ -1,0 +1,21 @@
+// Informações para importação nos componentes
+
+import socket from '../../api/socketClient'; */
+
+// Utilizar conforme o cenário para customer ou seller:
+
+Exemplo:
+ 
+  const infoSale= {
+   id: 1,
+   status: 'Em Trânsito',
+   role: 'seller',
+};
+
+// Utilizar na handleClick() dos botões:
+
+socket.emit('changeStatus', { ...info });
+
+// Utilizar em um useEffect() com estado controlado:
+
+socket.on('refreshStatus', (status) => setStatus(status))

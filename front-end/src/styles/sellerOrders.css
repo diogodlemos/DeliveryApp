@@ -1,0 +1,57 @@
+.seller-order-card {
+  background-color: #eaf1ef;
+  border: 1px solid rgb(211 211 211);
+  box-shadow: 1px 2px 3px rgb(200, 200, 200);
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  height: 110px;
+  width: min-content;
+}
+
+.seller-order-card > .order {
+  align-items: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  width: 120px;
+}
+
+.seller-order-card > .seller-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.basic {
+  display: flex;
+  gap: 10px;
+}
+
+.basic > .status {
+  align-items: center;
+  background-color: yellowgreen;
+  border-radius: 6px;
+  display: flex;
+  font-size: 22px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 10px 0;
+  width: 170px;
+}
+
+.basic > .info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  margin: 10px 10px 10px 0;
+  width: 120px;
+}
+
+.seller-info > .address {
+  margin-left: auto;
+  padding: 0 10px 10px 0;
+}
